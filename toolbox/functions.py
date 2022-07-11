@@ -14,7 +14,7 @@ def weirdCase(targetString:str):
     for i,letter in enumerate(targetString):
         i += 1
         if (i % 2 == 0):
-            returnWord += letter.lower()
-        else:
             returnWord += letter.upper()
+        else:
+            returnWord += letter.lower()
     return returnWord
